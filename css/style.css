@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/*** Home Page  ***/
+.card-text {
+    margin-left: 18px;
+}
+.card-text strong {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 5px;
+}

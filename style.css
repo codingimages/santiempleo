@@ -1,0 +1,346 @@
+p {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: .1rem;
+}
+
+.nav-title {
+  padding-left: 10px;
+}
+
+.main-header {
+  position: absolute;
+}
+
+.main__header__picture-1 {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, rgba(66, 66, 66, 0.5), rgba(0, 0, 150, 0.5)), url(img/work1.jpg);
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+
+.carousel-item-1{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, rgba(66, 66, 66, 0.5), rgba(0, 0, 150, 0.5)), url(img/carousel1.jpg);
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+.carousel-item-2{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, rgba(66, 66, 66, 0.5), rgba(0, 0, 150, 0.5)), url(img/carousel2.jpg);
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+.carousel-item-3{
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, rgba(66, 66, 66, 0.5), rgba(0, 0, 150, 0.5)), url(img/carousel3.jpg);
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+
+
+.main__header__text{
+  font-family: 'Noto Sans', sans-serif;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+.welcome-text{
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+}
+
+.welcome-logo{
+  height: 250px;
+  width: 250px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.second__display {
+  position: relative;
+}
+
+.second__display__picture {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, rgba(66, 66, 66, 0.5), rgba(0, 0, 150, 0.5)), url(img/work1.jpg);
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+
+.second__display__text{
+  font-family: 'Noto Sans', sans-serif;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.third__display {
+  position: relative;
+}
+
+.third__display__picture {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, rgba(66, 66, 66, 0.5), rgba(0, 0, 150, 0.5)), url(img/carousel3.jpg);
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+
+.third__display__text{
+  font-family: 'Noto Sans', sans-serif;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.about__display {
+  position: relative;
+}
+
+.about__display__picture {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, rgba(66, 66, 66, 0.5), rgba(0, 0, 150, 0.5)), url(img/about-us.jpg);
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+
+.about__display__text{
+  font-family: 'Noto Sans', sans-serif;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+.servicios__display {
+  position: relative;
+}
+
+.servicios__display__picture {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, rgba(66, 66, 66, 0.5), rgba(0, 0, 150, 0.5)), url(img/work3.jpg);
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+
+.servicios__display__text{
+  font-family: 'Noto Sans', sans-serif;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+.pictures{
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.empleos__display {
+  position: relative;
+}
+
+.empleos__display__picture {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, rgba(66, 66, 66, 0.5), rgba(0, 0, 150, 0.5)), url(img/workers.jpg);
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+
+.empleos__display__text{
+  font-family: 'Noto Sans', sans-serif;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+.suscripcion__display {
+  position: relative;
+}
+
+.suscripcion__display__picture {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, rgba(66, 66, 66, 0.5), rgba(0, 0, 150, 0.5)), url(img/shakehands.jpg);
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+
+.suscripcion__display__text{
+  font-family: 'Noto Sans', sans-serif;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+.contacto__display {
+  position: relative;
+}
+
+.contacto__display__picture {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, rgba(66, 66, 66, 0.5), rgba(0, 0, 150, 0.5)), url(img/contacto.jpg);
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+
+.contacto__display__text{
+  font-family: 'Noto Sans', sans-serif;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+.aplicar__display {
+  position: relative;
+}
+
+.aplicar__display__picture {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to right bottom, rgba(66, 66, 66, 0.5), rgba(0, 0, 150, 0.5)), url(img/apply.jpg);
+  background-position: top;
+  background-size: cover;
+  position: relative;
+}
+
+.aplicar__display__text{
+  font-family: 'Noto Sans', sans-serif;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+.icon-pic {
+  height: 80px;
+  width: 80px;
+  display:block;
+}
+
+@keyframes moveInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0.5; }
+  100% {
+    opacity: 1; } }
+
+#logo {
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  display: block;
+}
+
+#imagenes {
+  width: 320px;
+  height: 213px;
+  margin: auto;
+  display: block;
+}
+
+#imagenes-2 {
+  width: 320px;
+  height: 213px;
+  margin: auto;
+  display: block;
+}
+
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-copyright {
+  text-align: center;
+}
+
+.fas {
+  color: #007bff;
+}

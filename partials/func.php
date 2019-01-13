@@ -64,7 +64,7 @@ function sendMail($receiverName, $receiverEmail, $sub = null, $msg = null, $send
 
     /*Send the mail*/
     $mail = new SendGrid\Mail($from, $subject, $to, $content);
-    $apiKey = ('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');
+    $apiKey = ('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');
     $sg = new \SendGrid($apiKey);
 
     /*Response*/

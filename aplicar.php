@@ -121,7 +121,9 @@
                     
                     ?>
                 </div>
+                
                 <form action="SendGrid-API/f_process2.php" method="post" enctype="multipart/form-data">
+
                     <div class="row mb-3">
                         <div class="form-group col-md-6">
                             <label for="Name">Nombre<span>*</span></label>
@@ -132,18 +134,21 @@
                             <input type="text" name="phone" class="form-control bg-dark text-white">
                         </div>
                     </div>
+
                     <div class="row">
                         <div class="form-group col-md-12">
                             <label for="Email">Correo Electrónico<span>*</span></label>
                             <input type="text" name="email" class="form-control bg-dark text-white">
                         </div>
                     </div>
+
                     <div class="row">
                         <div class="form-group col-md-12">
                             <label for="Name">Mensaje<span>*</span></label>
                             <textarea name="message" id="" cols="30" rows="10" class="form-control bg-dark text-white"></textarea>
                         </div>
                     </div>
+
                     <div class="row">
                         <div class="form-group col-md-12">
                             <label for="File">Documento (Resume)<span>*</span></label><br>
@@ -158,6 +163,7 @@
                             </span>
                         </div>
                     </div>
+
                     <button type="submit" class="btn btn-dark">Enviar Mensaje</button>
                 </form>
             </div>
@@ -190,7 +196,7 @@
           <h5>
             <strong>Busco empleados</strong>
           </h5>
-          <a href="tel:3012384617">(301) 238-4617</a>
+          <a href="tel:4435382638">443-538-2638</a>
           <br>
           <a href="mailto:carlos@santistaffingsolutions.com">carlos@santistaffingsolutions.com</a>
           <br>
